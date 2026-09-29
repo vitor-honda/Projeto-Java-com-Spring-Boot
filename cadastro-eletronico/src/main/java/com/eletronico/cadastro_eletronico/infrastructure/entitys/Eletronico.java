@@ -14,7 +14,7 @@ import lombok.*;
 public class Eletronico {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Interger id;
+    private Integer id;
 
     @Column (name = "modelo")
     private String modelo;
